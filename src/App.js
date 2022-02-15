@@ -10,8 +10,8 @@ function App() {
     <ThemeProvider>
         <Header/>
         <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/Country/:name" element={<Country/>} />
+          <Route path="/country-app" element={<Home/>} />
+          <Route path="/country-app/Country/:name" element={<Country/>} />
         </Routes>
     </ThemeProvider>
     </div>

@@ -17,7 +17,7 @@ const Country = (props) => {
   const { name } = useParams();
   
   return <div className='country-box'> <div className='country-container'>
-    <Link  to="/" style={{ textDecoration: 'none', color:'#000'}}><div className='back'><i className="fas fa-long-arrow-alt-left"></i> Back</div></Link>
+    <Link  to="/country-app" style={{ textDecoration: 'none', color:'#000'}}><div className='back'><i className="fas fa-long-arrow-alt-left"></i> Back</div></Link>
     {data.map((item, index) => {
     return item.name === name ? (
       <div key={index} className='country'>

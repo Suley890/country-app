@@ -5,7 +5,7 @@ import { useTheme} from '../context/ThemeContext'
 const Card = (props) => {
   const darkTheme = useTheme()
   return (
-    <Link to={`/country/${props.name}`} style={darkTheme?{textDecoration: 'none', color: '#fff'} : {textDecoration: 'none', color: '#111517'}}>
+    <Link to={`/country-app/country/${props.name}`} style={darkTheme?{textDecoration: 'none', color: '#fff'} : {textDecoration: 'none', color: '#111517'}}>
       <div className="card">
         <img src={`${props.flag}`} alt="" />
         <div className="card-info">
