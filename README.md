@@ -1,6 +1,7 @@
 # Country App
 
-React application that displays country information on cards using API (https://restcountries.com/v2/all)
+React application that displays country information on cards using API (https://restcountries.com/v2/all)<br>
+Link(https://suley890.github.io/country-app/)
 
 ## Features
 - User can search for countries using search bar
@@ -10,7 +11,7 @@ React application that displays country information on cards using API (https://
 
 ### Techniques used
 - CSS grid and flexbox for layout
-- useEffect hook and axios to get API data
-- contextAPI and useLayoutEffect for changing theme
-- react-router-dom to navigate to individual country pages
-- useState to store state of dropdown, theme, search and API data
+- UseEffect hook and axios to get API data
+- ContextAPI and useLayoutEffect for changing theme
+- React-router-dom to navigate to individual country pages
+- UseState to store state of dropdown, theme, search and API data
