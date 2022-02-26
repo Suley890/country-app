@@ -12,5 +12,5 @@ React application that displays country information on cards using API (https://
 - CSS grid and flexbox for layout
 - useEffect hook and axios to get API data
 - contextAPI and useLayoutEffect for changing theme
-- react-router-dom to navigate to individual country page
+- react-router-dom to navigate to individual country pages
 - useState to store state of dropdown, theme, search and API data
