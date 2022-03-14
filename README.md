@@ -1,7 +1,8 @@
 # Country App
 
-React application that displays country information on cards using API (https://restcountries.com/v2/all)<br>
-Link(https://suley890.github.io/country-app/)
+React application that displays country information on cards using <br>
+API (https://restcountries.com/v2/all)<br>
+Link (https://suley890.github.io/country-app/)
 
 ## Features
 - User can search for countries using search bar
